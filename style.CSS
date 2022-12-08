@@ -75,8 +75,8 @@ margin: 21px 5px;
 cursor: pointer;
 } 
 .btn-sm{
-    margin: 2px 0;
-    padding: 5px 0;
+    margin: 2px 5px;
+    padding: 5px 5px;
 }
 
 
@@ -131,7 +131,43 @@ margin: 3px 0;
 .Eduitem{
     margin: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
 .Educontainer h1{
     margin: 23px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(19, 18, 18);
 }
+.Educontainer h2{
+    color: rgb(10, 9, 29);
+}
+.Educontainer p1{
+color:rgb(24, 11, 24);   
+font-weight: bold;
+}
+
+.sidebarGo{
+    transform: translate(-443px , 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin: left 155px; ;
+}
+@media (max-width: 1215px){
+
+    .sidebar{
+        transform: translate(-443px , 0px);
+        position: absolute;
+    }
+}
+
+
+
+
+
+
